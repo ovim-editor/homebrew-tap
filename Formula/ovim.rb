@@ -1,8 +1,8 @@
 class Ovim < Formula
-  desc "Oxidized Vim — snappy, batteries-included terminal editor with Vim keybindings, Lua config, LSP, and AI"
+  desc "Fast terminal editor with Vim keybindings, Lua, LSP, and AI"
   homepage "https://github.com/ovim-editor/ovim"
-  url "https://github.com/ovim-editor/ovim/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "13a852630088560c60abead3e8a01026abf7988694e5438a7524bdba2faef287"
+  url "https://github.com/ovim-editor/ovim/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "0893a2ab33068b88b0fa438b2d659c43225ced7c6630bf8651442bddb4e00caa"
   license "MIT"
   head "https://github.com/ovim-editor/ovim.git", branch: "main"
 
