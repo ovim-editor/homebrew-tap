@@ -1,8 +1,8 @@
 class Ovim < Formula
   desc "Fast terminal editor with Vim keybindings, Lua, LSP, and AI"
   homepage "https://github.com/ovim-editor/ovim"
-  url "https://github.com/ovim-editor/ovim/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "0893a2ab33068b88b0fa438b2d659c43225ced7c6630bf8651442bddb4e00caa"
+  url "https://github.com/ovim-editor/ovim/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "f1a132df032715f5c39d6852f8f57a11d155c907909efcd3b0436b95e2e7b7f2"
   license "MIT"
   head "https://github.com/ovim-editor/ovim.git", branch: "main"
 
