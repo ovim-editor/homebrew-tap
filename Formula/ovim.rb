@@ -1,7 +1,7 @@
 class Ovim < Formula
   desc "Fast terminal editor with Vim keybindings, Lua, LSP, and AI"
   homepage "https://github.com/ovim-editor/ovim"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   head do
@@ -11,21 +11,21 @@ class Ovim < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.8/ovim-v0.1.8-aarch64-apple-darwin.tar.gz"
-      sha256 "4446b0504ae99fd66dd201bae88fe01b98899a7dbda5db69e5e84a39763a807e"
+      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.9/ovim-v0.1.9-aarch64-apple-darwin.tar.gz"
+      sha256 "f1a4d50d33c556d720af96cd90af3ef64ba520147f5ed27919eab549b34bc44c"
     else
-      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.8/ovim-v0.1.8-x86_64-apple-darwin.tar.gz"
-      sha256 "3cf772f96843bea93401ca1f17fa4dbcfe3bc235c9d36b7f8c8f15011059b4bb"
+      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.9/ovim-v0.1.9-x86_64-apple-darwin.tar.gz"
+      sha256 "9db0ea8fba5517fdc04ee3ae07641ee74499ec28f3e3f72e016b3795275969e2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.8/ovim-v0.1.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "826e8d7093ca70982398953de8e1b4070b775f5cbd7cfdcd6964aba0d4557930"
+      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.9/ovim-v0.1.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0c4ec91ac8b2301fca1ab07f88421e3df2d929b853587aa6b09a647167f53763"
     else
-      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.8/ovim-v0.1.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5546ffb9a9d1085c7399a9e1dc361be1178b21334c6f65ff13c367476469b9f"
+      url "https://github.com/ovim-editor/ovim/releases/download/v0.1.9/ovim-v0.1.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a77bc987c3966e04ca3756bc12a1b3f2745b6a10675b5e952b31c679e21fe3cd"
     end
   end
 
