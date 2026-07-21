@@ -1,7 +1,6 @@
 class Ovim < Formula
   desc "Fast terminal editor with Vim keybindings, Lua, LSP, and AI"
   homepage "https://github.com/ovim-editor/ovim"
-  version "0.1.9"
   license "MIT"
 
   head do
