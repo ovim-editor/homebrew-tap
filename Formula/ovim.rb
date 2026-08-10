@@ -10,21 +10,21 @@ class Ovim < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ovim-editor/ovim/releases/download/v1.1.0/ovim-v1.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e689356ed851b36435975077e88d757bfb6ac59c299325a02652a7bd0f8567c3"
+      url "https://github.com/ovim-editor/ovim/releases/download/v1.2.0/ovim-v1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "423abe63a33414ab16918cbe4a4edbb87eb8dcdb522c6abd4b99e92e2f0b2436"
     else
-      url "https://github.com/ovim-editor/ovim/releases/download/v1.1.0/ovim-v1.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "14f6fa97fb1cb8afc5625bdedcf95ac28c46f522f70fd5549222c52d734fc963"
+      url "https://github.com/ovim-editor/ovim/releases/download/v1.2.0/ovim-v1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1ace9e76331df2fc5852fb15000831c97e6f2c8f17c71113c5ad17f239a42ce7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ovim-editor/ovim/releases/download/v1.1.0/ovim-v1.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "04a258f27a1ceb2cd197e7abfb5be3c680b49efd5889312e103ac856925eb3c6"
+      url "https://github.com/ovim-editor/ovim/releases/download/v1.2.0/ovim-v1.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e8ad51e3f7bab70ddbaa643c84cca881a93a0aaeaa604eb87afe684578bd4178"
     else
-      url "https://github.com/ovim-editor/ovim/releases/download/v1.1.0/ovim-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "783a1fb8b7cf94a9f4b23b6efc821cc7ba455a0863ba61fae72a08102a18699a"
+      url "https://github.com/ovim-editor/ovim/releases/download/v1.2.0/ovim-v1.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "45be81e78dd6e5bf11b314f94e4b59117162b24bef28a203763cfffcf380b365"
     end
   end
 
